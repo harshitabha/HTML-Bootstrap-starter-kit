@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+
+
+<!--
+    The head tag contain important information about your website like
+    - Website Title
+    - Any metadata
+-->
+<head>
+    <!--
+        This is the title of your website. 
+        This will show up when your website shows up in a Google search
+        Or at the top of your tab
+    -->
+    <title>❗ Example Website (CHANGE THIS)</title>
+
+    <!--
+        The following is Metadata, it is used by 
+        browsers (how to display content or how often to reload page), 
+        search engines (keywords), 
+        and other web services. Src: https://www.w3schools.com/tags/tag_meta.asp
+    -->
+    <meta name="keywords" content="❗ Put your keywords here ex: HTML, CSS, JavaScript, Starter Kit"> <!--the keywords the search engine looks for when a person searches something-->
+    <meta charset="UTF-8">
+    <meta name="description" content="❗ Describe what is on your webstite">
+    <meta name="author" content="❗ John Doe"> <!--Author(s) of the website-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><!--This makes it so your website looks good on all devices-->
+
+
+    <!--
+        CSS is how we style our website
+        We're including a Bootstrap CSS file and one you can edit and customize
+        Find the CSS file you can customize in "/assets/css/styles.css"
+    -->
+    <!--Link to bootstrap stylesheet-->
+    <!--the stylesheet that includes bootstraps custom styles. Makes your life a lot easier-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="./assets/css/styles.css"> <!--❗ Change to include your own CSS-->
+    
+
+</head>
+
+
+<!--Anything inside the body tags will show up on your website-->
+<body>
+
+    <!--
+        This is your nav bar. It will show up at the top of your page
+        Your should put any important links that a person can reference very easily in the nav bar
+    -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="/">❗ Your website's name</a>
+
+            <!--
+                This is some Bootstrap Magic✨! 
+                It makes it so the nav bar will automatically minamize if the screen is too small
+                And this button is open it up again
+            -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="/">❗ Link 1</a> <!--Button #1-->
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="/">❗ Link 2</a> <!--Button #2-->
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <br/>
+
+    <!-- 
+        This is a contianer. 
+        It will automatically push the content of your website in from the sides to make it look better
+        The size of the website will determine how much the content inside in pushed inward
+     -->
+    <div class="container">
+        <h1>❗ This is an example website</h1>
+        <br/>
+        <p>❗ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Cursus in hac habitasse platea dictumst quisque sagittis. Pulvinar neque laoreet suspendisse interdum consectetur libero. Tempus urna et pharetra pharetra massa massa ultricies. Lacus sed viverra tellus in hac habitasse. Eu non diam phasellus vestibulum lorem sed risus ultricies. Et ligula ullamcorper malesuada proin libero nunc. Vitae suscipit tellus mauris a diam maecenas sed. Auctor eu augue ut lectus arcu bibendum at. Risus nullam eget felis eget nunc. Elit pellentesque habitant morbi tristique senectus et. Purus ut faucibus pulvinar elementum integer enim neque. Vulputate ut pharetra sit amet aliquam id diam maecenas ultricies. Phasellus vestibulum lorem sed risus ultricies tristique nulla. Cras adipiscing enim eu turpis egestas. Viverra accumsan in nisl nisi scelerisque eu. Sit amet consectetur adipiscing elit pellentesque habitant. Facilisis volutpat est velit egestas dui.</p>
+        <p>❗ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Cursus in hac habitasse platea dictumst quisque sagittis. Pulvinar neque laoreet suspendisse interdum consectetur libero. Tempus urna et pharetra pharetra massa massa ultricies. Lacus sed viverra tellus in hac habitasse. Eu non diam phasellus vestibulum lorem sed risus ultricies. Et ligula ullamcorper malesuada proin libero nunc. Vitae suscipit tellus mauris a diam maecenas sed. Auctor eu augue ut lectus arcu bibendum at. Risus nullam eget felis eget nunc. Elit pellentesque habitant morbi tristique senectus et. Purus ut faucibus pulvinar elementum integer enim neque. Vulputate ut pharetra sit amet aliquam id diam maecenas ultricies. Phasellus vestibulum lorem sed risus ultricies tristique nulla. Cras adipiscing enim eu turpis egestas. Viverra accumsan in nisl nisi scelerisque eu. Sit amet consectetur adipiscing elit pellentesque habitant. Facilisis volutpat est velit egestas dui.</p>
+        <p>❗ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Cursus in hac habitasse platea dictumst quisque sagittis. Pulvinar neque laoreet suspendisse interdum consectetur libero. Tempus urna et pharetra pharetra massa massa ultricies. Lacus sed viverra tellus in hac habitasse. Eu non diam phasellus vestibulum lorem sed risus ultricies. Et ligula ullamcorper malesuada proin libero nunc. Vitae suscipit tellus mauris a diam maecenas sed. Auctor eu augue ut lectus arcu bibendum at. Risus nullam eget felis eget nunc. Elit pellentesque habitant morbi tristique senectus et. Purus ut faucibus pulvinar elementum integer enim neque. Vulputate ut pharetra sit amet aliquam id diam maecenas ultricies. Phasellus vestibulum lorem sed risus ultricies tristique nulla. Cras adipiscing enim eu turpis egestas. Viverra accumsan in nisl nisi scelerisque eu. Sit amet consectetur adipiscing elit pellentesque habitant. Facilisis volutpat est velit egestas dui.</p>
+    </div>
+
+    <!--This is Bootstrap's JavaScript. By including it we can make our website do interactive stuff-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+</body>
